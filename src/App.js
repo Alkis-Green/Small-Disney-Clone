@@ -6,7 +6,9 @@ import Details from './Components/Details/Details';
 import './App.css';
 import Login from './Components/Login/Login';
 
+
 function App() {
+  
   return (
     <div className="App">
       <Router>
@@ -19,7 +21,7 @@ function App() {
             <Details />
           </Route>
           <Route exact path="/">
-            <Home />
+            <Home title="search" />
           </Route>
         </Switch>
       </Router>
